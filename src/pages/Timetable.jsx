@@ -85,7 +85,7 @@ const Timetable = () => {
                           <td key={`${day}-${timeSlot}`} className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                             {session ? (
                               <div>
-                                <div className="font-medium text-green-600">{session.course}</div>
+                                <div className="font-medium text-blue-600">{session.course}</div>
                                 <div>{session.venue}</div>
                               </div>
                             ) : (

@@ -50,7 +50,7 @@ const Contact = () => {
                 <div className="space-y-4">
                   <div className="flex items-start">
                     <div className="flex-shrink-0">
-                      <FaMapMarkerAlt className="h-6 w-6 text-green-600" />
+                      <FaMapMarkerAlt className="h-6 w-6 text-blue-600" />
                     </div>
                     <div className="ml-3 text-base text-gray-500">
                       <p>Department of Computer Science</p>
@@ -63,7 +63,7 @@ const Contact = () => {
 
                   <div className="flex items-center">
                     <div className="flex-shrink-0">
-                      <FaPhone className="h-6 w-6 text-green-600" />
+                      <FaPhone className="h-6 w-6 text-blue-600" />
                     </div>
                     <div className="ml-3 text-base text-gray-500">
                       <p>+233 20 123 4567</p>
@@ -72,7 +72,7 @@ const Contact = () => {
 
                   <div className="flex items-center">
                     <div className="flex-shrink-0">
-                      <FaEnvelope className="h-6 w-6 text-green-600" />
+                      <FaEnvelope className="h-6 w-6 text-blue-600" />
                     </div>
                     <div className="ml-3 text-base text-gray-500">
                       <p>computerscience@uds.edu.gh</p>
@@ -81,7 +81,7 @@ const Contact = () => {
 
                   <div className="flex items-start">
                     <div className="flex-shrink-0">
-                      <FaClock className="h-6 w-6 text-green-600" />
+                      <FaClock className="h-6 w-6 text-blue-600" />
                     </div>
                     <div className="ml-3 text-base text-gray-500">
                       <p>Office Hours:</p>
@@ -94,7 +94,7 @@ const Contact = () => {
                 <div className="mt-8">
                   <h3 className="text-lg font-medium text-gray-900 mb-4">Follow Us</h3>
                   <div className="flex space-x-6">
-                    <a href="#" className="text-gray-400 hover:text-gray-500">
+                    <a href="#" className="text-gray-400 hover:text-gray-600">
                       <span className="sr-only">Facebook</span>
                       <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                         <path
@@ -104,13 +104,13 @@ const Contact = () => {
                         />
                       </svg>
                     </a>
-                    <a href="#" className="text-gray-400 hover:text-gray-500">
+                    <a href="#" className="text-gray-400 hover:text-gray-600">
                       <span className="sr-only">Twitter</span>
                       <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                         <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-7.007 3.747 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.093 4.093 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.615 11.615 0 006.29 1.84" />
                       </svg>
                     </a>
-                    <a href="#" className="text-gray-400 hover:text-gray-500">
+                    <a href="#" className="text-gray-400 hover:text-gray-600">
                       <span className="sr-only">Instagram</span>
                       <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                         <path
@@ -204,7 +204,7 @@ const Contact = () => {
                   <div>
                     <button
                       type="submit"
-                      className="w-full inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
+                      className="w-full inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-none-500"
                       disabled={formStatus === "submitting"}
                     >
                       {formStatus === "submitting" ? (

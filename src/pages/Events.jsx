@@ -161,7 +161,7 @@ const Events = () => {
                     </div>
                   </div>
                   <div className="mt-4 sm:mt-0 sm:ml-6">
-                    <span className="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-green-100 text-blue-800 capitalize">
+                    <span className="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-blue-300 text-blue-800 capitalize">
                       {event.category}
                     </span>
                   </div>
